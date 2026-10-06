@@ -1,0 +1,38 @@
+device=cpu threads=4 base=sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11055.33it/s]
+[transformers] [1mBertForSequenceClassification LOAD REPORT[0m from: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+Key               | Status  | 
+------------------+---------+-
+classifier.bias   | MISSING | 
+classifier.weight | MISSING | 
+
+Notes:
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1 step 25/133 loss=0.6951 elapsed=69s
+  epoch 1 step 50/133 loss=0.6471 elapsed=137s
+  epoch 1 step 75/133 loss=0.5118 elapsed=207s
+  epoch 1 step 100/133 loss=0.4427 elapsed=275s
+  epoch 1 step 125/133 loss=0.3851 elapsed=350s
+epoch 1: {"precision": 0.967741935483871, "recall": 0.9183673469387755, "f1": 0.9424083769633508, "roc_auc": 0.9712290931410158, "pr_auc": 0.9742572418962243, "epoch": 1, "train_loss": 0.3700003643989339}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  5.22it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  5.21it/s]
+  epoch 2 step 25/133 loss=0.1749 elapsed=453s
+  epoch 2 step 50/133 loss=0.1270 elapsed=520s
+  epoch 2 step 75/133 loss=0.1157 elapsed=587s
+  epoch 2 step 100/133 loss=0.1024 elapsed=655s
+  epoch 2 step 125/133 loss=0.0912 elapsed=721s
+epoch 2: {"precision": 0.9494949494949495, "recall": 0.9591836734693877, "f1": 0.9543147208121827, "roc_auc": 0.9857296301979439, "pr_auc": 0.9683925878171298, "epoch": 2, "train_loss": 0.08808477472205807}
+  epoch 3 step 25/133 loss=0.0245 elapsed=818s
+  epoch 3 step 50/133 loss=0.0280 elapsed=885s
+  epoch 3 step 75/133 loss=0.0264 elapsed=949s
+  epoch 3 step 100/133 loss=0.0320 elapsed=1014s
+  epoch 3 step 125/133 loss=0.0265 elapsed=1079s
+epoch 3: {"precision": 0.968421052631579, "recall": 0.9387755102040817, "f1": 0.9533678756476683, "roc_auc": 0.9859597974528156, "pr_auc": 0.9875307648884185, "epoch": 3, "train_loss": 0.025139150640374065}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.85it/s]
+  epoch 4 step 25/133 loss=0.0124 elapsed=1173s
+  epoch 4 step 50/133 loss=0.0129 elapsed=1238s
+  epoch 4 step 75/133 loss=0.0133 elapsed=1305s
+  epoch 4 step 100/133 loss=0.0125 elapsed=1372s
+  epoch 4 step 125/133 loss=0.0156 elapsed=1438s
+epoch 4: {"precision": 0.96875, "recall": 0.9489795918367347, "f1": 0.9587628865979382, "roc_auc": 0.9861899647076876, "pr_auc": 0.9878042923572047, "epoch": 4, "train_loss": 0.014808324303940162}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.80it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  1.80it/s]
+guardado en /home/deltax/Projects/FDSI/system-prompt-extraction-ml-filter/models/leakfilter-v1 · umbral calibrado=0.5 · 1465.8s

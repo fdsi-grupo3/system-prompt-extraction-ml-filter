@@ -1,0 +1,26 @@
+device=cpu threads=4 base=sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  epoch 1 step 25/143 loss=0.6945 elapsed=74s
+  epoch 1 step 50/143 loss=0.6444 elapsed=147s
+  epoch 1 step 75/143 loss=0.5093 elapsed=222s
+  epoch 1 step 100/143 loss=0.4481 elapsed=292s
+  epoch 1 step 125/143 loss=0.3912 elapsed=361s
+epoch 1: {"precision": 1.0, "recall": 0.896551724137931, "f1": 0.9454545454545454, "roc_auc": 0.9877433732113535, "pr_auc": 0.9872184795949601, "epoch": 1, "train_loss": 0.36250440401213985}
+  epoch 2 step 25/143 loss=0.1413 elapsed=493s
+  epoch 2 step 50/143 loss=0.0946 elapsed=567s
+  epoch 2 step 75/143 loss=0.0913 elapsed=638s
+  epoch 2 step 100/143 loss=0.0778 elapsed=710s
+  epoch 2 step 125/143 loss=0.0635 elapsed=781s
+epoch 2: {"precision": 0.9732142857142857, "recall": 0.9396551724137931, "f1": 0.956140350877193, "roc_auc": 0.9877433732113535, "pr_auc": 0.9901789522796373, "epoch": 2, "train_loss": 0.06392284755275904}
+  epoch 3 step 25/143 loss=0.0054 elapsed=911s
+  epoch 3 step 50/143 loss=0.0106 elapsed=986s
+  epoch 3 step 75/143 loss=0.0081 elapsed=1056s
+  epoch 3 step 100/143 loss=0.0068 elapsed=1128s
+  epoch 3 step 125/143 loss=0.0059 elapsed=1198s
+epoch 3: {"precision": 1.0, "recall": 0.9224137931034483, "f1": 0.9596412556053812, "roc_auc": 0.9891508327468919, "pr_auc": 0.9898583594342292, "epoch": 3, "train_loss": 0.005489483080035844}
+  epoch 4 step 25/143 loss=0.0021 elapsed=1332s
+  epoch 4 step 50/143 loss=0.0020 elapsed=1404s
+  epoch 4 step 75/143 loss=0.0029 elapsed=1474s
+  epoch 4 step 100/143 loss=0.0047 elapsed=1546s
+  epoch 4 step 125/143 loss=0.0041 elapsed=1620s
+epoch 4: {"precision": 1.0, "recall": 0.9137931034482759, "f1": 0.954954954954955, "roc_auc": 0.9892094768942059, "pr_auc": 0.9900296963495403, "epoch": 4, "train_loss": 0.007743456366738969}
+guardado en /home/deltax/Projects/FDSI/system-prompt-extraction-ml-filter/models/leakfilter-v1 · umbral calibrado=0.33 · 1677.8s

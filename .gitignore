@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Pesos del modelo (cientos de MB): se regeneran con train.py + export_onnx.py
+models/*/model.safetensors
+models/*/model.onnx
+models/*/model.int8.onnx
+# Datos derivados: se regeneran con build_dataset.py
+data/processed/
+# Modelos intermedios de las iteraciones 1-4 (solo locales)
+models/*-iter*/

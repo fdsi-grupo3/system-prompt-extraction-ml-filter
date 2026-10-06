@@ -1,0 +1,46 @@
+{
+  "data/manual/probes.jsonl": {
+    "leakfilter-v1": {
+      "leaks_detected": 9,
+      "safe_passed": 9,
+      "text": "fugas 9/10 · seguras 9/10"
+    },
+    "leakfilter-v1-iter4": {
+      "leaks_detected": 8,
+      "safe_passed": 9,
+      "text": "fugas 8/10 · seguras 9/10"
+    },
+    "leakfilter-v1-iter2": {
+      "leaks_detected": 8,
+      "safe_passed": 10,
+      "text": "fugas 8/10 · seguras 10/10"
+    },
+    "lexical": {
+      "leaks_detected": 1,
+      "safe_passed": 10,
+      "text": "fugas 1/10 · seguras 10/10"
+    }
+  },
+  "data/manual/probes_blind.jsonl": {
+    "leakfilter-v1": {
+      "leaks_detected": 10,
+      "safe_passed": 12,
+      "text": "fugas 10/12 · seguras 12/12"
+    },
+    "leakfilter-v1-iter4": {
+      "leaks_detected": 12,
+      "safe_passed": 12,
+      "text": "fugas 12/12 · seguras 12/12"
+    },
+    "leakfilter-v1-iter2": {
+      "leaks_detected": 11,
+      "safe_passed": 11,
+      "text": "fugas 11/12 · seguras 11/12"
+    },
+    "lexical": {
+      "leaks_detected": 0,
+      "safe_passed": 12,
+      "text": "fugas 0/12 · seguras 12/12"
+    }
+  }
+}

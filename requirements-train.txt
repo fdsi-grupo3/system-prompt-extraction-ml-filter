@@ -1,0 +1,10 @@
+# Entrenamiento, exportación y evaluación (además de requirements.txt).
+# PyTorch CPU:  pip install --index-url https://download.pytorch.org/whl/cpu torch
+-r requirements.txt
+torch>=2.3
+scikit-learn>=1.5
+onnx>=1.16
+onnxscript>=0.1
+rapidfuzz>=3.9
+httpx>=0.27
+pytest>=8.2

@@ -1,0 +1,12 @@
+{
+  "fp32": {
+    "size_mb": 470.9,
+    "max_abs_diff_vs_torch": 1.1920928955078125e-07,
+    "decision_agreement@0.5": 1.0
+  },
+  "int8": {
+    "size_mb": 118.3,
+    "max_abs_diff_vs_torch": 0.003084581345319748,
+    "decision_agreement@0.5": 1.0
+  }
+}

@@ -1,0 +1,6 @@
+device=cpu threads=4 base=sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  epoch 1 step 100/177 loss=0.4318 elapsed=327s
+epoch 1: {"precision": 0.9735099337748344, "recall": 0.9130434782608695, "f1": 0.9423076923076923, "roc_auc": 0.9897482134508782, "pr_auc": 0.9887237606728323, "epoch": 1, "train_loss": 0.32984520767494446}
+  epoch 2 step 100/177 loss=0.0904 elapsed=936s
+epoch 2: {"precision": 0.9634146341463414, "recall": 0.9813664596273292, "f1": 0.9723076923076923, "roc_auc": 0.9966940492887196, "pr_auc": 0.9961247827802244, "epoch": 2, "train_loss": 0.07876223712991186}
+guardado en /home/deltax/Projects/FDSI/system-prompt-extraction-ml-filter/models/leakfilter-v1 · umbral calibrado=0.65 · 1208.2s

@@ -1,0 +1,7 @@
+# Servicio de inferencia (producción): ONNX Runtime, sin PyTorch.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic>=2.7
+onnxruntime>=1.18
+transformers>=4.44
+numpy>=1.26
